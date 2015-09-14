@@ -19,14 +19,14 @@
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF TWELVE  */
-.span_12_of_12 {
-	width: 100%;
+.span 1_4 red {
+	width: 33.33%
 }
 
-.span_11_of_12 {
-  	width: 91.53%;
+.span 1_8 green{
+  	width: 66.67%
 }
-.span_10_of_12 {
+.span_ {
   	width: 83.06%;
 }
 
