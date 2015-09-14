@@ -19,26 +19,26 @@
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF TWELVE  */
-.span 1_4 red {
-	width: 33.33%
+.span_1_4_red {
+	width: 33.33%;
 }
 
-.span 1_8 green{
-  	width: 66.67%
+.span_1_8_green{
+  	width: 66.67%;
 }
-.span_ {
-  	width: 83.06%;
-}
-
-.span_9_of_12 {
-  	width: 74.6%;
+.span_1_4_blue{
+  	width: 33.33%;
 }
 
-.span_8_of_12 {
-  	width: 66.13%;
+.span_1_4_orange{
+  	width: 33.33%;
 }
 
-.span_7_of_12 {
+.span_1_4_purple{
+  	width: 33.33%;
+}
+
+/*.span_7_of_12 {
   	width: 57.66%;
 }
 
@@ -64,7 +64,7 @@
 
 .span_1_of_12 {
   	width: 6.866%;
-}
+}*/
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
